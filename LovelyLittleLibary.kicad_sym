@@ -1,974 +1,3821 @@
-(kicad_symbol_lib (version 20241209) (generator kicad_symbol_editor)
-  (symbol "USB4180-03-0120-C" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 26.67 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "USB4180-03-0120-C" (at 26.67 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "USB4180030120C" (at 26.67 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://gct.co/connector/usb4180#" (at 26.67 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Global Connector Technology (GCT) USB-C Plug, Vert, H11mm, SMT, No Latches, 6pin, 1.2mm stakes" (at 26.67 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "12.5" (at 26.67 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "640-USB4180-03-0120C" (at 26.67 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4180-03-0120-C?qs=63Lh8XYXgjuxdGoYXvLhgw%3D%3D" (at 26.67 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)" (at 26.67 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "USB4180-03-0120-C" (at 26.67 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 25.4 -12.7)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "MH1" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "MH2" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "MH3" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "MH4" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "CC1" (effects (font (size 1.27 1.27))))
-      (number "A5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 0 180) (length 5.08)
-      (name "VBUS_1" (effects (font (size 1.27 1.27))))
-      (number "A9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -2.54 180) (length 5.08)
-      (name "GND_1" (effects (font (size 1.27 1.27))))
-      (number "A12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -5.08 180) (length 5.08)
-      (name "CC2" (effects (font (size 1.27 1.27))))
-      (number "B5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -7.62 180) (length 5.08)
-      (name "VBUS_2" (effects (font (size 1.27 1.27))))
-      (number "B9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -10.16 180) (length 5.08)
-      (name "GND_2" (effects (font (size 1.27 1.27))))
-      (number "B12" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "MAX30101EFD+T" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 31.75 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "MAX30101EFD+T" (at 31.75 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "14-LEAD-OESIP" (at 31.75 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX30101.pdf" (at 31.75 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Biometric Sensors Integrated Optical Sensor" (at 31.75 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "" (at 31.75 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "700-MAX30101EFD+T" (at 31.75 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX30101EFD%2bT?qs=sITqEBh490kEm6CNcTH1tQ%3D%3D" (at 31.75 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Analog Devices" (at 31.75 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "MAX30101EFD+T" (at 31.75 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 30.48 -17.78)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "N.C._1" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "SCL" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "SDA" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "PGND" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "N.C._2" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -12.7 0) (length 5.08)
-      (name "N.C._3" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -15.24 0) (length 5.08)
-      (name "N.C._4" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -15.24 180) (length 5.08)
-      (name "N.C._5" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -12.7 180) (length 5.08)
-      (name "VLED+_1" (effects (font (size 1.27 1.27))))
-      (number "9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -10.16 180) (length 5.08)
-      (name "VLED+_2" (effects (font (size 1.27 1.27))))
-      (number "10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -7.62 180) (length 5.08)
-      (name "VDD" (effects (font (size 1.27 1.27))))
-      (number "11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -5.08 180) (length 5.08)
-      (name "GND" (effects (font (size 1.27 1.27))))
-      (number "12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -2.54 180) (length 5.08)
-      (name "~{INT}" (effects (font (size 1.27 1.27))))
-      (number "13" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 0 180) (length 5.08)
-      (name "N.C._6" (effects (font (size 1.27 1.27))))
-      (number "14" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "MAX30102EFD+T" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 31.75 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "MAX30102EFD+T" (at 31.75 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "MAX30102EFDT" (at 31.75 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30102.pdf" (at 31.75 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Biometric Sensors Integrated Optical Sensor" (at 31.75 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.65" (at 31.75 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "700-MAX30102EFD+T" (at 31.75 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX30102EFD%2bT?qs=nVS1qgv%252BQrkHA4%2FoFYriFA%3D%3D" (at 31.75 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Analog Devices" (at 31.75 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "MAX30102EFD+T" (at 31.75 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 30.48 -17.78)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "N.C._1" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "SCL" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "SDA" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "PGND" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "N.C._2" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -12.7 0) (length 5.08)
-      (name "N.C._3" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -15.24 0) (length 5.08)
-      (name "N.C._4" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -15.24 180) (length 5.08)
-      (name "N.C._5" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -12.7 180) (length 5.08)
-      (name "VLED+_1" (effects (font (size 1.27 1.27))))
-      (number "9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -10.16 180) (length 5.08)
-      (name "VLED+_2" (effects (font (size 1.27 1.27))))
-      (number "10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -7.62 180) (length 5.08)
-      (name "VDD" (effects (font (size 1.27 1.27))))
-      (number "11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -5.08 180) (length 5.08)
-      (name "GND" (effects (font (size 1.27 1.27))))
-      (number "12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -2.54 180) (length 5.08)
-      (name "~{INT}" (effects (font (size 1.27 1.27))))
-      (number "13" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 0 180) (length 5.08)
-      (name "N.C._6" (effects (font (size 1.27 1.27))))
-      (number "14" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "OPA396DCKR" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 21.59 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "OPA396DCKR" (at 21.59 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "SOT65P210X110-5N" (at 21.59 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/gpn/opa396" (at 21.59 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Precision Amplifiers Single micro-power, high-precision, wide bandwidth RRIO op amp with e-Trim" (at 21.59 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.1" (at 21.59 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "595-OPA396DCKR" (at 21.59 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA396DCKR?qs=pBJMDPsKWf3kPopX8lKQVQ%3D%3D" (at 21.59 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Texas Instruments" (at 21.59 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "OPA396DCKR" (at 21.59 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 20.32 -7.62)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "+IN" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "V-" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "-IN" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 25.4 0 180) (length 5.08)
-      (name "OUT" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 25.4 -2.54 180) (length 5.08)
-      (name "V+" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "ADS1015IRUGR" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 24.13 15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "ADS1015IRUGR" (at 24.13 12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "ADS1015IRUGR" (at 24.13 -87.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1014.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1693594019978&ref_url=https%253A%252F%252Fwww.mouser.mx%252F" (at 24.13 -187.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Analog to Digital Converters - ADC 12B ADC with Int MUX PGA Comp Osc and Ref" (at 24.13 -287.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "0.4" (at 24.13 -387.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "595-ADS1015IRUGR" (at 24.13 -487.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1015IRUGR?qs=IK5e5L0zOXiH4nzJ%2FqgaZA%3D%3D" (at 24.13 -587.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Texas Instruments" (at 24.13 -687.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "ADS1015IRUGR" (at 24.13 -787.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 10.16) (end 22.86 -17.78)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 10.16 -22.86 90) (length 5.08)
-      (name "ADDR" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 12.7 -22.86 90) (length 5.08)
-      (name "ALERT/RDY" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 15.24 -22.86 90) (length 5.08)
-      (name "GND" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 17.78 -22.86 90) (length 5.08)
-      (name "AIN0" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 27.94 0 180) (length 5.08)
-      (name "AIN1" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 17.78 15.24 270) (length 5.08)
-      (name "AIN2" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 15.24 15.24 270) (length 5.08)
-      (name "AIN3" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 12.7 15.24 270) (length 5.08)
-      (name "VDD" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 10.16 15.24 270) (length 5.08)
-      (name "SDA" (effects (font (size 1.27 1.27))))
-      (number "9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "SCL" (effects (font (size 1.27 1.27))))
-      (number "10" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "MCP3565RT-E_SFX" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 26.67 15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "MCP3565RT-E_SFX" (at 26.67 12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "QFN40P200X200X60-13N-D" (at 26.67 -87.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP3565R-Data-Sheet-20006401C.pdf" (at 26.67 -187.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Single channel, 3V" (at 26.67 -287.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "0.6" (at 26.67 -387.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "579-MCP3565RT-E/SFX" (at 26.67 -487.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3565RT-E-SFX?qs=DPoM0jnrROWws6MsJ7Bz8A%3D%3D" (at 26.67 -587.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Microchip" (at 26.67 -687.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "MCP3565RT-E/SFX" (at 26.67 -787.3 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 10.16) (end 25.4 -15.24)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "AGND" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "REFIN-" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "REFIN+" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 12.7 -20.32 90) (length 5.08)
-      (name "CH1" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 15.24 -20.32 90) (length 5.08)
-      (name "CH0" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 17.78 -20.32 90) (length 5.08)
-      (name "~{CS}" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 0 180) (length 5.08)
-      (name "SDO" (effects (font (size 1.27 1.27))))
-      (number "9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -2.54 180) (length 5.08)
-      (name "SDI" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 30.48 -5.08 180) (length 5.08)
-      (name "SCK" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 10.16 15.24 270) (length 5.08)
-      (name "EP" (effects (font (size 1.27 1.27))))
-      (number "13" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 12.7 15.24 270) (length 5.08)
-      (name "AVDD" (effects (font (size 1.27 1.27))))
-      (number "12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 15.24 15.24 270) (length 5.08)
-      (name "DVDD" (effects (font (size 1.27 1.27))))
-      (number "11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 17.78 15.24 270) (length 5.08)
-      (name "DGND" (effects (font (size 1.27 1.27))))
-      (number "10" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "MLX90632SLD-DCB-100-SP" (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 21.59 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "MLX90632SLD-DCB-100-SP" (at 21.59 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "MLX90632SLDDCB100SP" (at 21.59 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "" (at 21.59 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Board Mount Temperature Sensors single pixel, SMD, medical acc., 50deg FoV, 1.8V I2C" (at 21.59 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1" (at 21.59 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "482-90632SLDDCB100SP" (at 21.59 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Melexis/MLX90632SLD-DCB-100-SP?qs=W%2FMpXkg%252BdQ6VXghbjaLHHg%3D%3D" (at 21.59 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Melexis" (at 21.59 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "MLX90632SLD-DCB-100-SP" (at 21.59 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 20.32 -12.7)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "SDA" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "VDD" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "GND" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "SCL" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "ADDR" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 25.4 0 180) (length 5.08)
-      (name "EP" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "USB4151-GF-C" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 29.21 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "USB4151-GF-C" (at 29.21 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "USB4151GFC" (at 29.21 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://gct.co/files/drawings/usb4151.pdf" (at 29.21 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "USB TYPE C, PLUG, SMT , G/F, VER" (at 29.21 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "11.35" (at 29.21 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "640-USB4151-GF-C" (at 29.21 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4151-GF-C?qs=KUoIvG%2F9IlY4HaJSFPtBdg%3D%3D" (at 29.21 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)" (at 29.21 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "USB4151-GF-C" (at 29.21 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 27.94 -38.1)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "GND_1" (effects (font (size 1.27 1.27))))
-      (number "A1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "SSTXP1" (effects (font (size 1.27 1.27))))
-      (number "A2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "SSTXN1" (effects (font (size 1.27 1.27))))
-      (number "A3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "VBUS_1" (effects (font (size 1.27 1.27))))
-      (number "A4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "CC1" (effects (font (size 1.27 1.27))))
-      (number "A5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -12.7 0) (length 5.08)
-      (name "DP1" (effects (font (size 1.27 1.27))))
-      (number "A6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -15.24 0) (length 5.08)
-      (name "DN1" (effects (font (size 1.27 1.27))))
-      (number "A7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -17.78 0) (length 5.08)
-      (name "SBU1" (effects (font (size 1.27 1.27))))
-      (number "A8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -20.32 0) (length 5.08)
-      (name "VBUS_2" (effects (font (size 1.27 1.27))))
-      (number "A9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -22.86 0) (length 5.08)
-      (name "SSRXN2" (effects (font (size 1.27 1.27))))
-      (number "A10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -25.4 0) (length 5.08)
-      (name "SSRXP2" (effects (font (size 1.27 1.27))))
-      (number "A11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -27.94 0) (length 5.08)
-      (name "GND_2" (effects (font (size 1.27 1.27))))
-      (number "A12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -30.48 0) (length 5.08)
-      (name "GND_3" (effects (font (size 1.27 1.27))))
-      (number "B1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -33.02 0) (length 5.08)
-      (name "SSTXP2" (effects (font (size 1.27 1.27))))
-      (number "B2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -35.56 0) (length 5.08)
-      (name "SSTXN2" (effects (font (size 1.27 1.27))))
-      (number "B3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 0 180) (length 5.08)
-      (name "VBUS_3" (effects (font (size 1.27 1.27))))
-      (number "B4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -2.54 180) (length 5.08)
-      (name "CC2" (effects (font (size 1.27 1.27))))
-      (number "B5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -5.08 180) (length 5.08)
-      (name "DP2" (effects (font (size 1.27 1.27))))
-      (number "B6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -7.62 180) (length 5.08)
-      (name "DN2" (effects (font (size 1.27 1.27))))
-      (number "B7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -10.16 180) (length 5.08)
-      (name "SBU2" (effects (font (size 1.27 1.27))))
-      (number "B8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -12.7 180) (length 5.08)
-      (name "VBUS_4" (effects (font (size 1.27 1.27))))
-      (number "B9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -15.24 180) (length 5.08)
-      (name "SSRXN1" (effects (font (size 1.27 1.27))))
-      (number "B10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -17.78 180) (length 5.08)
-      (name "SSRXP1" (effects (font (size 1.27 1.27))))
-      (number "B11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -20.32 180) (length 5.08)
-      (name "GND_4" (effects (font (size 1.27 1.27))))
-      (number "B12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -22.86 180) (length 5.08)
-      (name "MH1" (effects (font (size 1.27 1.27))))
-      (number "MH1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -25.4 180) (length 5.08)
-      (name "MH7" (effects (font (size 1.27 1.27))))
-      (number "MH2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -27.94 180) (length 5.08)
-      (name "MH2" (effects (font (size 1.27 1.27))))
-      (number "MH3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -30.48 180) (length 5.08)
-      (name "MH6" (effects (font (size 1.27 1.27))))
-      (number "MH4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 33.02 -33.02 180) (length 5.08)
-      (name "MH5" (effects (font (size 1.27 1.27))))
-      (number "MH5" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "2498797-1" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 67.31 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "2498797-1" (at 67.31 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "24987971" (at 67.31 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2498797&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2498797-1" (at 67.31 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "HDMI, Displayport & DVI Connectors DisplayPort 2.1 Receptacle 20 Position Right Angle SMT" (at 67.31 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "6.44" (at 67.31 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "" (at 67.31 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "" (at 67.31 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "TE Connectivity" (at 67.31 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "2498797-1" (at 67.31 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 66.04 -30.48)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "ML_LANE_0_(P)/ML_LANE_3_(N)" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "GND_1" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "ML_LANE_0_(N)/ML_LANE_3_(P)" (effects (font (size 1.27 1.27))))
-      (number "3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "ML_LANE_1_(P)/ML_LANE_2_(N)" (effects (font (size 1.27 1.27))))
-      (number "4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "GND_2" (effects (font (size 1.27 1.27))))
-      (number "5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -12.7 0) (length 5.08)
-      (name "ML_LANE_1_(N)/ML_LANE_2_(P)" (effects (font (size 1.27 1.27))))
-      (number "6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -15.24 0) (length 5.08)
-      (name "ML_LANE_2_(P)/ML_LANE_1_(N)" (effects (font (size 1.27 1.27))))
-      (number "7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -17.78 0) (length 5.08)
-      (name "GND_3" (effects (font (size 1.27 1.27))))
-      (number "8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -20.32 0) (length 5.08)
-      (name "ML_LANE_2_(N)/ML_LANE_1_(P)" (effects (font (size 1.27 1.27))))
-      (number "9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -22.86 0) (length 5.08)
-      (name "ML_LANE_3_(P)/ML_LANE_0_(N)" (effects (font (size 1.27 1.27))))
-      (number "10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -25.4 0) (length 5.08)
-      (name "GND_4" (effects (font (size 1.27 1.27))))
-      (number "11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -27.94 0) (length 5.08)
-      (name "ML_LANE_3_(N)/ML_LANE_3_(P)" (effects (font (size 1.27 1.27))))
-      (number "12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 0 180) (length 5.08)
-      (name "CONFIG_1" (effects (font (size 1.27 1.27))))
-      (number "13" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -2.54 180) (length 5.08)
-      (name "CONFIG_2" (effects (font (size 1.27 1.27))))
-      (number "14" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -5.08 180) (length 5.08)
-      (name "AUX_CH(P)" (effects (font (size 1.27 1.27))))
-      (number "15" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -7.62 180) (length 5.08)
-      (name "GND_5" (effects (font (size 1.27 1.27))))
-      (number "16" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -10.16 180) (length 5.08)
-      (name "AUX_CH(N)" (effects (font (size 1.27 1.27))))
-      (number "17" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -12.7 180) (length 5.08)
-      (name "HOT_PLUG_DETECT" (effects (font (size 1.27 1.27))))
-      (number "18" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -15.24 180) (length 5.08)
-      (name "RETURN_DP_PWR" (effects (font (size 1.27 1.27))))
-      (number "19" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -17.78 180) (length 5.08)
-      (name "DP_PWR" (effects (font (size 1.27 1.27))))
-      (number "20" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -20.32 180) (length 5.08)
-      (name "SHIELD_1" (effects (font (size 1.27 1.27))))
-      (number "21" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -22.86 180) (length 5.08)
-      (name "SHIELD_2" (effects (font (size 1.27 1.27))))
-      (number "22" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -25.4 180) (length 5.08)
-      (name "SHIELD_3" (effects (font (size 1.27 1.27))))
-      (number "23" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 71.12 -27.94 180) (length 5.08)
-      (name "SHIELD_4" (effects (font (size 1.27 1.27))))
-      (number "24" (effects (font (size 1.27 1.27))))
-    )
-  )
-  (symbol "632722110112" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 31.75 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "632722110112" (at 31.75 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "632722110112" (at 31.75 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.we-online.com/components/products/download/3D_632722110112+%28rev1%29.pdf" (at 31.75 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "WR-COM_USB 3.1_Type C_Vertical_SMT_1,0mm Type C 3.1 Receptacle_Vertical_SMT_PCB Thickness 1,0mm" (at 31.75 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "7.4" (at 31.75 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "710-632722110112" (at 31.75 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/632722110112?qs=2WXlatMagcH6zbfYjgLonA%3D%3D" (at 31.75 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Wurth Elektronik" (at 31.75 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "632722110112" (at 31.75 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle (start 5.08 2.54) (end 30.48 -35.56)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "GND_1" (effects (font (size 1.27 1.27))))
-      (number "A1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -2.54 0) (length 5.08)
-      (name "SSTXP1" (effects (font (size 1.27 1.27))))
-      (number "A2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -5.08 0) (length 5.08)
-      (name "SSTXN1" (effects (font (size 1.27 1.27))))
-      (number "A3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -7.62 0) (length 5.08)
-      (name "VBUS_1" (effects (font (size 1.27 1.27))))
-      (number "A4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -10.16 0) (length 5.08)
-      (name "CC" (effects (font (size 1.27 1.27))))
-      (number "A5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -12.7 0) (length 5.08)
-      (name "DP1" (effects (font (size 1.27 1.27))))
-      (number "A6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -15.24 0) (length 5.08)
-      (name "DN1" (effects (font (size 1.27 1.27))))
-      (number "A7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -17.78 0) (length 5.08)
-      (name "SBU1" (effects (font (size 1.27 1.27))))
-      (number "A8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -20.32 0) (length 5.08)
-      (name "VBUS_2" (effects (font (size 1.27 1.27))))
-      (number "A9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -22.86 0) (length 5.08)
-      (name "SSRXN2" (effects (font (size 1.27 1.27))))
-      (number "A10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -25.4 0) (length 5.08)
-      (name "SSRXP2" (effects (font (size 1.27 1.27))))
-      (number "A11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -27.94 0) (length 5.08)
-      (name "GND_2" (effects (font (size 1.27 1.27))))
-      (number "A12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -30.48 0) (length 5.08)
-      (name "GND_3" (effects (font (size 1.27 1.27))))
-      (number "B1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 0 -33.02 0) (length 5.08)
-      (name "SSTXP2" (effects (font (size 1.27 1.27))))
-      (number "B2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 0 180) (length 5.08)
-      (name "SSTXN2" (effects (font (size 1.27 1.27))))
-      (number "B3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -2.54 180) (length 5.08)
-      (name "VBUS_3" (effects (font (size 1.27 1.27))))
-      (number "B4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -5.08 180) (length 5.08)
-      (name "VCONN" (effects (font (size 1.27 1.27))))
-      (number "B5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -7.62 180) (length 5.08)
-      (name "DP2" (effects (font (size 1.27 1.27))))
-      (number "B6" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -10.16 180) (length 5.08)
-      (name "DN2" (effects (font (size 1.27 1.27))))
-      (number "B7" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -12.7 180) (length 5.08)
-      (name "SBU2" (effects (font (size 1.27 1.27))))
-      (number "B8" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -15.24 180) (length 5.08)
-      (name "VBUS_4" (effects (font (size 1.27 1.27))))
-      (number "B9" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -17.78 180) (length 5.08)
-      (name "SSRXN1" (effects (font (size 1.27 1.27))))
-      (number "B10" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -20.32 180) (length 5.08)
-      (name "SSRXP1" (effects (font (size 1.27 1.27))))
-      (number "B11" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -22.86 180) (length 5.08)
-      (name "GND_4" (effects (font (size 1.27 1.27))))
-      (number "B12" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -25.4 180) (length 5.08)
-      (name "SHIELD_1" (effects (font (size 1.27 1.27))))
-      (number "MH3" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -27.94 180) (length 5.08)
-      (name "SHIELD_2" (effects (font (size 1.27 1.27))))
-      (number "MH4" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -30.48 180) (length 5.08)
-      (name "SHIELD_3" (effects (font (size 1.27 1.27))))
-      (number "MH5" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 35.56 -33.02 180) (length 5.08)
-      (name "SHIELD_4" (effects (font (size 1.27 1.27))))
-      (number "MH6" (effects (font (size 1.27 1.27))))
-    )
-  )
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.99")
+	(symbol "2498797-1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 67.31 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "2498797-1"
+			(at 67.31 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "24987971"
+			(at 67.31 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2498797&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2498797-1"
+			(at 67.31 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "HDMI, Displayport & DVI Connectors DisplayPort 2.1 Receptacle 20 Position Right Angle SMT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.44"
+			(at 67.31 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 67.31 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 67.31 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 67.31 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2498797-1"
+			(at 67.31 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "2498797-1_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 66.04 -30.48)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "ML_LANE_0_(P)/ML_LANE_3_(N)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "ML_LANE_0_(N)/ML_LANE_3_(P)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "ML_LANE_1_(P)/ML_LANE_2_(N)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "ML_LANE_1_(N)/ML_LANE_2_(P)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "ML_LANE_2_(P)/ML_LANE_1_(N)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "GND_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 5.08)
+				(name "ML_LANE_2_(N)/ML_LANE_1_(P)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 5.08)
+				(name "ML_LANE_3_(P)/ML_LANE_0_(N)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25.4 0)
+				(length 5.08)
+				(name "GND_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 5.08)
+				(name "ML_LANE_3_(N)/ML_LANE_3_(P)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 0 180)
+				(length 5.08)
+				(name "CONFIG_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -2.54 180)
+				(length 5.08)
+				(name "CONFIG_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -5.08 180)
+				(length 5.08)
+				(name "AUX_CH(P)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -7.62 180)
+				(length 5.08)
+				(name "GND_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -10.16 180)
+				(length 5.08)
+				(name "AUX_CH(N)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -12.7 180)
+				(length 5.08)
+				(name "HOT_PLUG_DETECT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -15.24 180)
+				(length 5.08)
+				(name "RETURN_DP_PWR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -17.78 180)
+				(length 5.08)
+				(name "DP_PWR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -20.32 180)
+				(length 5.08)
+				(name "SHIELD_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -22.86 180)
+				(length 5.08)
+				(name "SHIELD_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -25.4 180)
+				(length 5.08)
+				(name "SHIELD_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 -27.94 180)
+				(length 5.08)
+				(name "SHIELD_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "632722110112"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 31.75 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "632722110112"
+			(at 31.75 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "632722110112"
+			(at 31.75 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_632722110112+%28rev1%29.pdf"
+			(at 31.75 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "WR-COM_USB 3.1_Type C_Vertical_SMT_1,0mm Type C 3.1 Receptacle_Vertical_SMT_PCB Thickness 1,0mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "7.4"
+			(at 31.75 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "710-632722110112"
+			(at 31.75 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/632722110112?qs=2WXlatMagcH6zbfYjgLonA%3D%3D"
+			(at 31.75 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 31.75 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "632722110112"
+			(at 31.75 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "632722110112_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 30.48 -35.56)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "SSTXP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "SSTXN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "VBUS_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "CC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "DP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 5.08)
+				(name "VBUS_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 5.08)
+				(name "SSRXN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25.4 0)
+				(length 5.08)
+				(name "SSRXP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30.48 0)
+				(length 5.08)
+				(name "GND_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33.02 0)
+				(length 5.08)
+				(name "SSTXP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 0 180)
+				(length 5.08)
+				(name "SSTXN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -2.54 180)
+				(length 5.08)
+				(name "VBUS_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -5.08 180)
+				(length 5.08)
+				(name "VCONN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -7.62 180)
+				(length 5.08)
+				(name "DP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -10.16 180)
+				(length 5.08)
+				(name "DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -12.7 180)
+				(length 5.08)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -15.24 180)
+				(length 5.08)
+				(name "VBUS_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -17.78 180)
+				(length 5.08)
+				(name "SSRXN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -20.32 180)
+				(length 5.08)
+				(name "SSRXP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -22.86 180)
+				(length 5.08)
+				(name "GND_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -25.4 180)
+				(length 5.08)
+				(name "SHIELD_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -27.94 180)
+				(length 5.08)
+				(name "SHIELD_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -30.48 180)
+				(length 5.08)
+				(name "SHIELD_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -33.02 180)
+				(length 5.08)
+				(name "SHIELD_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MAX30101EFD+T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 31.75 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "MAX30101EFD+T"
+			(at 31.75 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "14-LEAD-OESIP"
+			(at 31.75 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX30101.pdf"
+			(at 31.75 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Biometric Sensors Integrated Optical Sensor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 31.75 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX30101EFD+T"
+			(at 31.75 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX30101EFD%2bT?qs=sITqEBh490kEm6CNcTH1tQ%3D%3D"
+			(at 31.75 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 31.75 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX30101EFD+T"
+			(at 31.75 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "MAX30101EFD+T_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 30.48 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "N.C._1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "N.C._2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "N.C._3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "N.C._4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -15.24 180)
+				(length 5.08)
+				(name "N.C._5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -12.7 180)
+				(length 5.08)
+				(name "VLED+_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -10.16 180)
+				(length 5.08)
+				(name "VLED+_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -7.62 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -5.08 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -2.54 180)
+				(length 5.08)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 0 180)
+				(length 5.08)
+				(name "N.C._6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MAX30102EFD+T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 31.75 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "MAX30102EFD+T"
+			(at 31.75 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "MAX30102EFDT"
+			(at 31.75 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30102.pdf"
+			(at 31.75 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Biometric Sensors Integrated Optical Sensor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.65"
+			(at 31.75 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX30102EFD+T"
+			(at 31.75 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX30102EFD%2bT?qs=nVS1qgv%252BQrkHA4%2FoFYriFA%3D%3D"
+			(at 31.75 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 31.75 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX30102EFD+T"
+			(at 31.75 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "MAX30102EFD+T_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 30.48 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "N.C._1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "N.C._2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "N.C._3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "N.C._4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -15.24 180)
+				(length 5.08)
+				(name "N.C._5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -12.7 180)
+				(length 5.08)
+				(name "VLED+_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -10.16 180)
+				(length 5.08)
+				(name "VLED+_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -7.62 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -5.08 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -2.54 180)
+				(length 5.08)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 0 180)
+				(length 5.08)
+				(name "N.C._6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MCP3565RT-E_SFX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 26.67 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "MCP3565RT-E_SFX"
+			(at 26.67 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "QFN40P200X200X60-13N-D"
+			(at 26.67 -87.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP3565R-Data-Sheet-20006401C.pdf"
+			(at 26.67 -187.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Single channel, 3V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 26.67 -387.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP3565RT-E/SFX"
+			(at 26.67 -487.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3565RT-E-SFX?qs=DPoM0jnrROWws6MsJ7Bz8A%3D%3D"
+			(at 26.67 -587.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 26.67 -687.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP3565RT-E/SFX"
+			(at 26.67 -787.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "MCP3565RT-E_SFX_1_1"
+			(rectangle
+				(start 5.08 10.16)
+				(end 25.4 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "REFIN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "REFIN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -20.32 90)
+				(length 5.08)
+				(name "CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -20.32 90)
+				(length 5.08)
+				(name "CH0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -20.32 90)
+				(length 5.08)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 15.24 270)
+				(length 5.08)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 270)
+				(length 5.08)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 15.24 270)
+				(length 5.08)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 15.24 270)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MLX90632SLD-DCB-100-SP"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 21.59 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "MLX90632SLD-DCB-100-SP"
+			(at 21.59 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "MLX90632SLDDCB100SP"
+			(at 21.59 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Board Mount Temperature Sensors single pixel, SMD, medical acc., 50deg FoV, 1.8V I2C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 21.59 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "482-90632SLDDCB100SP"
+			(at 21.59 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Melexis/MLX90632SLD-DCB-100-SP?qs=W%2FMpXkg%252BdQ6VXghbjaLHHg%3D%3D"
+			(at 21.59 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Melexis"
+			(at 21.59 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MLX90632SLD-DCB-100-SP"
+			(at 21.59 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "MLX90632SLD-DCB-100-SP_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "ADDR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OPA396DCKR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 21.59 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "OPA396DCKR"
+			(at 21.59 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-5N"
+			(at 21.59 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa396"
+			(at 21.59 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Precision Amplifiers Single micro-power, high-precision, wide bandwidth RRIO op amp with e-Trim"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 21.59 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-OPA396DCKR"
+			(at 21.59 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA396DCKR?qs=pBJMDPsKWf3kPopX8lKQVQ%3D%3D"
+			(at 21.59 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 21.59 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OPA396DCKR"
+			(at 21.59 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "OPA396DCKR_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USB4151-GF-C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 29.21 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB4151-GF-C"
+			(at 29.21 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "USB4151GFC"
+			(at 29.21 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/drawings/usb4151.pdf"
+			(at 29.21 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "USB TYPE C, PLUG, SMT , G/F, VER"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "11.35"
+			(at 29.21 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "640-USB4151-GF-C"
+			(at 29.21 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4151-GF-C?qs=KUoIvG%2F9IlY4HaJSFPtBdg%3D%3D"
+			(at 29.21 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 29.21 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB4151-GF-C"
+			(at 29.21 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "USB4151-GF-C_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 27.94 -38.1)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "SSTXP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "SSTXN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "VBUS_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "DP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 5.08)
+				(name "VBUS_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 5.08)
+				(name "SSRXN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25.4 0)
+				(length 5.08)
+				(name "SSRXP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30.48 0)
+				(length 5.08)
+				(name "GND_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33.02 0)
+				(length 5.08)
+				(name "SSTXP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35.56 0)
+				(length 5.08)
+				(name "SSTXN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 0 180)
+				(length 5.08)
+				(name "VBUS_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -2.54 180)
+				(length 5.08)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -5.08 180)
+				(length 5.08)
+				(name "DP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -7.62 180)
+				(length 5.08)
+				(name "DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -10.16 180)
+				(length 5.08)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -12.7 180)
+				(length 5.08)
+				(name "VBUS_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -15.24 180)
+				(length 5.08)
+				(name "SSRXN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -17.78 180)
+				(length 5.08)
+				(name "SSRXP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -20.32 180)
+				(length 5.08)
+				(name "GND_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -22.86 180)
+				(length 5.08)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -25.4 180)
+				(length 5.08)
+				(name "MH7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -27.94 180)
+				(length 5.08)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -30.48 180)
+				(length 5.08)
+				(name "MH6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -33.02 180)
+				(length 5.08)
+				(name "MH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USB4180-03-0120-C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 26.67 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "USB4180-03-0120-C"
+			(at 26.67 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "USB4180030120C"
+			(at 26.67 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://gct.co/connector/usb4180#"
+			(at 26.67 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Global Connector Technology (GCT) USB-C Plug, Vert, H11mm, SMT, No Latches, 6pin, 1.2mm stakes"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12.5"
+			(at 26.67 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "640-USB4180-03-0120C"
+			(at 26.67 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4180-03-0120-C?qs=63Lh8XYXgjuxdGoYXvLhgw%3D%3D"
+			(at 26.67 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 26.67 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB4180-03-0120-C"
+			(at 26.67 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "USB4180-03-0120-C_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "MH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "MH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "VBUS_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "VBUS_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -10.16 180)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

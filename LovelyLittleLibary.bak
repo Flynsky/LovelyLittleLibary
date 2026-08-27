@@ -8630,7 +8630,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 12.192 -23.622 0)
+			(at 9.906 -25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8640,7 +8640,7 @@
 			)
 		)
 		(property "Value" "nRF52810-QCxx"
-			(at 12.192 -26.162 0)
+			(at 9.906 -28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8706,8 +8706,8 @@
 		)
 		(symbol "nRF52810-QCxx_0_1"
 			(rectangle
-				(start -19.05 20.32)
-				(end 20.32 -20.955)
+				(start -20.32 22.86)
+				(end 20.32 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -8719,7 +8719,7 @@
 		)
 		(symbol "nRF52810-QCxx_1_1"
 			(pin passive line
-				(at -8.89 22.86 270)
+				(at -12.7 25.4 270)
 				(length 2.54)
 				(name "DEC1"
 					(effects
@@ -8737,7 +8737,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -6.35 0)
+				(at -22.86 -6.35 0)
 				(length 2.54)
 				(name "P0.00/XL1"
 					(effects
@@ -8755,7 +8755,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -8.89 0)
+				(at -22.86 -8.89 0)
 				(length 2.54)
 				(name "P0.01/XL2"
 					(effects
@@ -8773,7 +8773,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 13.97 180)
+				(at 22.86 12.7 180)
 				(length 2.54)
 				(name "P0.04/AIN2"
 					(effects
@@ -8791,7 +8791,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 11.43 180)
+				(at 22.86 10.16 180)
 				(length 2.54)
 				(name "P0.05/AIN3"
 					(effects
@@ -8809,7 +8809,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 8.89 180)
+				(at 22.86 7.62 180)
 				(length 2.54)
 				(name "P0.06"
 					(effects
@@ -8827,7 +8827,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 6.35 180)
+				(at 22.86 5.08 180)
 				(length 2.54)
 				(name "P0.09"
 					(effects
@@ -8845,7 +8845,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 3.81 180)
+				(at 22.86 2.54 180)
 				(length 2.54)
 				(name "P0.10"
 					(effects
@@ -8863,7 +8863,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 22.86 270)
+				(at 0 25.4 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -8881,7 +8881,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 1.27 180)
+				(at 22.86 0 180)
 				(length 2.54)
 				(name "P0.12"
 					(effects
@@ -8899,7 +8899,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -1.27 180)
+				(at 22.86 -2.54 180)
 				(length 2.54)
 				(name "P0.14"
 					(effects
@@ -8917,7 +8917,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -3.81 180)
+				(at 22.86 -5.08 180)
 				(length 2.54)
 				(name "P0.15"
 					(effects
@@ -8935,7 +8935,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -6.35 180)
+				(at 22.86 -7.62 180)
 				(length 2.54)
 				(name "P0.16"
 					(effects
@@ -8953,7 +8953,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -8.89 180)
+				(at 22.86 -10.16 180)
 				(length 2.54)
 				(name "P0.18"
 					(effects
@@ -8971,7 +8971,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -11.43 180)
+				(at 22.86 -12.7 180)
 				(length 2.54)
 				(name "P0.20"
 					(effects
@@ -8989,7 +8989,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 10.16 0)
+				(at -22.86 10.16 0)
 				(length 2.54)
 				(name "P0.21/~{RESET}"
 					(effects
@@ -9007,7 +9007,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 6.35 0)
+				(at -22.86 6.35 0)
 				(length 2.54)
 				(name "SWDCLK"
 					(effects
@@ -9025,7 +9025,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 3.81 0)
+				(at -22.86 3.81 0)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -9043,7 +9043,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 17.78 180)
+				(at 29.21 24.13 180)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -9061,7 +9061,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -23.495 90)
+				(at 0 -25.4 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -9079,7 +9079,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 22.86 270)
+				(at -10.16 25.4 270)
 				(length 2.54)
 				(name "DEC2"
 					(effects
@@ -9097,7 +9097,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 22.86 270)
+				(at -7.62 25.4 270)
 				(length 2.54)
 				(name "DEC3"
 					(effects
@@ -9115,7 +9115,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 0 0)
+				(at -22.86 0 0)
 				(length 2.54)
 				(name "XC1"
 					(effects
@@ -9133,7 +9133,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 -2.54 0)
+				(at -22.86 -2.54 0)
 				(length 2.54)
 				(name "XC2"
 					(effects
@@ -9151,8 +9151,9 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 22.86 270)
+				(at 0 25.4 270)
 				(length 2.54)
+				(hide yes)
 				(name "VDD"
 					(effects
 						(font
@@ -9169,7 +9170,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -13.97 180)
+				(at 22.86 -15.24 180)
 				(length 2.54)
 				(name "P0.25"
 					(effects
@@ -9187,7 +9188,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -16.51 180)
+				(at 22.86 -17.78 180)
 				(length 2.54)
 				(name "P0.28/AIN4"
 					(effects
@@ -9205,7 +9206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -19.05 180)
+				(at 22.86 -20.32 180)
 				(length 2.54)
 				(name "P0.30/AIN6"
 					(effects
@@ -9223,8 +9224,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -23.495 90)
+				(at 0 -25.4 90)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -9241,7 +9243,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -17.78 0)
+				(at -22.86 -17.78 0)
 				(length 2.54)
 				(name "DEC4"
 					(effects
@@ -9259,7 +9261,7 @@
 				)
 			)
 			(pin power_out line
-				(at -21.59 -15.24 0)
+				(at -22.86 -15.24 0)
 				(length 2.54)
 				(name "DCC"
 					(effects
@@ -9277,8 +9279,9 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 22.86 270)
+				(at 0 25.4 270)
 				(length 2.54)
+				(hide yes)
 				(name "VDD"
 					(effects
 						(font
@@ -9295,8 +9298,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -23.495 90)
+				(at 0 -25.4 90)
 				(length 2.54)
+				(hide yes)
 				(name "VSS"
 					(effects
 						(font
